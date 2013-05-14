@@ -18,7 +18,7 @@ public class StatementFormatterFactory {
 		
 		FileInputStream in;
 		try {
-			in = new FileInputStream("props/knoedel.properties");
+			in = new FileInputStream("props/knoedelmitsosse.properties");
 			probs.load(in);
 		} catch (IOException e) {
 			e.printStackTrace();
